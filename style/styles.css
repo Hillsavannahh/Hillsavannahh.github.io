@@ -15,4 +15,6 @@ nav {
  padding: 1.5rem 3.5rem;
  background-color: rgb(5, 5, 5);
  box-shadow: 0 3px 5px rgba(137, 180, 188, 0.1);
+ border-color: lightslategray;
+ border-width: 4;
 }
