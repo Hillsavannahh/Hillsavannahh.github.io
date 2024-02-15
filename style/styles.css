@@ -17,4 +17,5 @@ nav {
  box-shadow: 0 3px 5px rgba(137, 180, 188, 0.1);
  border-color: lightslategray;
  border-width: 4;
+ border-radius: 5;
 }
