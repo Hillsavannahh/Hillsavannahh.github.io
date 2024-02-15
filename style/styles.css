@@ -1,6 +1,6 @@
 body {
 
-    background-color: lightgray;
+    background-color: rgb(61, 56, 56);
     font-family: sans-serif;
     text-align: center;
 }
@@ -14,5 +14,5 @@ nav {
  justify-content: space-between;
  padding: 1.5rem 3.5rem;
  background-color: rgb(5, 5, 5);
- box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+ box-shadow: 0 3px 5px rgba(137, 180, 188, 0.1);
 }
