@@ -11,12 +11,11 @@ nav {
  left: 0;
  z-index: 1;
  display: flex;
- justify-content: space-between;
+ justify-content: space-evenly;
  padding: 1.5rem 3.5rem;
  background-color: rgba(5, 5, 5, 0.698);
  box-shadow: 0 3px 5px rgba(4, 4, 4, 0.1); 
- width: 1090px;
- align-items: center;
+ text-align: center;
  border: 4;
 }
 .navigation {
@@ -37,4 +36,5 @@ nav {
 }
 .navlink {
     text-align: center;
+    background-color: pink;
 }
