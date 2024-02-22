@@ -4,6 +4,7 @@ body {
     font-family: sans-serif;
     text-align: center;
     align-items: center;
+    
 }
 nav {
  position: sticky;
@@ -37,4 +38,7 @@ nav {
 .navlink {
     text-align: center;
     background-color: pink;
+}
+.bars {
+    background-color: red;
 }
