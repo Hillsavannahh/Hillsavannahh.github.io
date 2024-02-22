@@ -29,10 +29,10 @@ nav {
     font-size: 2rem;
     border-color: pink;
     border: 4;
-    width: 30px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     background-color: black;
-    border-width:15px;
+    border-width:10px;
 }
 .navlink {
     text-align: center;
