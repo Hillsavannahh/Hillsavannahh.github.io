@@ -39,10 +39,15 @@ nav {
     text-align: center;
     background-color: pink;
 }
-.bars {
-    background-color: red;
-}
+
 a {
-    color: brown;
+    color: pink;
+    
+}
+.banner {
+    align-items:center;
+    width:100%; 
+    background-position: center;
+    height: 100px;
     
 }
