@@ -2,15 +2,12 @@ body {
 
     background-color: silver;
     font-family: sans-serif;
-    text-align: center;
     align-items: center;
     
 }
 nav {
  position: sticky;
- top: 0;
  left: 0;
- z-index: 1;
  display: flex;
  justify-content: space-evenly;
  padding: 1.5rem 3.5rem;
@@ -18,36 +15,41 @@ nav {
  box-shadow: 0 3px 5px rgba(4, 4, 4, 0.1); 
  text-align: center;
  border: 4;
-}
-.navigation {
-    align-items: center;
-    text-align: center;
-    border: 4;
-    border-color: pink;
+ top: 0;
 }
 
 .menu {
-    font-size: 2rem;
     border-color: pink;
     border: 4;
-    width: 15px;
-    height: 15px;
+    width: 25px;
+    height: 20px;
     background-color: black;
-    border-width:10px;
-}
-.navlink {
-    text-align: center;
-    background-color: pink;
+    border-width:2px;
+    align-items:center;
 }
 
-a {
-    color: pink;
-    
+.container {
+    text-align: center;
+    max-width:absolute;
+    margin: 0 auto;
+
 }
 .banner {
-    align-items:center;
-    width:100%; 
-    background-position: center;
     height: 100px;
-    
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR54rpBCMISzIlHwkMtX9qgcwOLaBiFKb4M41Vgxc9vHwbuLVH2Z8n885_Wlnrjk9sSrnw:https://floralwalls.ca/wp-content/uploads/2023/05/gradient-ombre-flower-wall-backdrop.jpg&usqp=CAU)
+}
+
+h1 #center-content {
+    text-align: center;
+}
+li{
+    float: left;
+    display: inline;
+}
+li a{
+    position: relative;
+    color: pink;
+    text-align: center;
+    align-items: right;
+    padding: 16px;
 }
