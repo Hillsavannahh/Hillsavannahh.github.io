@@ -1,6 +1,6 @@
 body {
 
-    background-color: silver;
+    background-color: #C4A484 ;
     font-family: sans-serif;
     align-items: center;
     
@@ -10,15 +10,14 @@ nav {
     left: 0;
     display: flex;
     justify-content: space-evenly;
-    background-color: rgba(5, 5, 5, 0.698);
-    box-shadow: 0 3px 5px rgba(4, 4, 4, 0.1); 
+    background-color: #7a5b4e;
     text-align: center;
     border: 4;
     top: 0;
 }
 
 .menu {
-    border-color: pink;
+    border-color: rosyBrown;
     border: 4;
     width: 25px;
     height: 20px;
@@ -27,17 +26,16 @@ nav {
     align-items:center;
 }
 
-.container {
+.BAcontainer {
     text-align: center;
     max-width:absolute;
-    margin: 10;
     align-items:center;
     justify-content:center;
 }
 .banner {
     height: 100px;
     justify-content: center;
-    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR54rpBCMISzIlHwkMtX9qgcwOLaBiFKb4M41Vgxc9vHwbuLVH2Z8n885_Wlnrjk9sSrnw:https://floralwalls.ca/wp-content/uploads/2023/05/gradient-ombre-flower-wall-backdrop.jpg&usqp=CAU)
+    background: url(https://images.template.net/218217/free-watercolor-brown-background-edit-online-1.jpg)
 }
 
 li{
@@ -46,16 +44,40 @@ li{
 }
 li a{
     position: relative;
-    color: pink;
+    color: white;
     padding: 10px;
     align-items:top;
 }
 #center-content{
     align-items:center;
     justify-content: center; 
+    color:white;
+    border: 4;
+    border-style: solid;
+    border-color:black;
 }
 .paragraphs{
     text-align: center;
-    border: 4;
-    border-color: black;
+    font-size:smaller;
+}
+.content{
+    color:black;
+    align-items:center;
+    
+}
+#col-1 {
+    flex:50%;
+    background-color: black;
+}
+  
+  #col-2 {
+    flex:50%;
+    background-color: white;
+    
+  }
+.SScontainer{
+    width:95%;
+    height:100vh;
+    display:flex;
+    margin:auto;
 }
