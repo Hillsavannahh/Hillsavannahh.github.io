@@ -58,7 +58,7 @@ li a{
 }
 .paragraphs{
     text-align: center;
-    font-size:smaller;
+    font-size:small;
 }
 .content{
     color:black;
@@ -67,7 +67,7 @@ li a{
 }
 #col-1 {
     flex:50%;
-    background-color: black;
+    background-color: white;
 }
   
   #col-2 {
