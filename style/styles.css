@@ -14,16 +14,19 @@ nav {
     text-align: center;
     border: 4;
     top: 0;
+    border:5;
+    border-color: pink;
+    border-style:solid;
 }
 
 .menu {
-    border-color: rosyBrown;
-    border: 4;
     width: 25px;
     height: 20px;
     background-color: black;
-    border-width:2px;
     align-items:center;
+    border:2;
+    border-color: pink;
+    border-style:solid;
 }
 
 .BAcontainer {
@@ -61,23 +64,37 @@ li a{
     font-size:small;
 }
 .content{
-    color:black;
+    color:pink;
     align-items:center;
     
 }
 #col-1 {
     flex:50%;
-    background-color: white;
+    background-color: #5C4033	;
+    border-radius:25px;
+    margin-top:30px;
+    text-align:center;
+    border:5;
+    border-color: pink;
+    border-style:solid;
+
 }
   
   #col-2 {
     flex:50%;
-    background-color: white;
+    background-color: #5C4033	;
+    margin-left:30px;
+    border-radius:25px;
+    margin-top:30px;
+    text-align:center;
+    border:5;
+    border-color: pink;
+    border-style:solid;
     
   }
 .SScontainer{
     width:95%;
-    height:100vh;
-    display:flex;
+    height:60vh;
     margin:auto;
+    display:flex;
 }
