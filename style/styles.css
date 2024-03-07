@@ -17,6 +17,8 @@ nav {
     border:5;
     border-color: pink;
     border-style:solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
 .menu {
@@ -27,6 +29,8 @@ nav {
     border:2;
     border-color: pink;
     border-style:solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
 .BAcontainer {
@@ -52,12 +56,12 @@ li a{
     align-items:top;
 }
 #center-content{
-    align-items:center;
-    justify-content: center; 
-    color:white;
     border: 4;
     border-style: solid;
     border-color:black;
+    color: pink;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .paragraphs{
     text-align: center;
@@ -66,6 +70,7 @@ li a{
 .content{
     color:pink;
     align-items:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
 #col-1 {
@@ -77,6 +82,8 @@ li a{
     border:5;
     border-color: pink;
     border-style:solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 
 }
   
@@ -90,6 +97,8 @@ li a{
     border:5;
     border-color: pink;
     border-style:solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
     
   }
 .SScontainer{
@@ -97,4 +106,12 @@ li a{
     height:60vh;
     margin:auto;
     display:flex;
+}
+.headings{
+    font-size:large;
+    color:pink;
+    border:3px;
+    border-style:solid;
+    border-color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
