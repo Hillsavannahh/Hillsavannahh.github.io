@@ -40,7 +40,7 @@ nav {
     justify-content:center;
 }
 .banner {
-    height: 100px;
+    height: 85px;
     justify-content: center;
     background: url(https://images.template.net/218217/free-watercolor-brown-background-edit-online-1.jpg)
 }
@@ -60,7 +60,8 @@ li a{
     border-style: solid;
     border-color:black;
     color: pink;
-    font-size: 35px;
+    margin-top: 40px;
+    font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .paragraphs{
@@ -114,4 +115,9 @@ li a{
     border-style:solid;
     border-color:black;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.infoBlocks{
+    color: pink;
+    font-size: 18px;
 }
