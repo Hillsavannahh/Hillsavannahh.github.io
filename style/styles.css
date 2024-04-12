@@ -1,8 +1,6 @@
-@media screen and (max-width= 481px){
-  
+@media screen and (max-width: 481px){
+
 }
-
-
 body {
 
     background-color:black;
@@ -223,7 +221,7 @@ nav {
   top: 0;
   left: 0;
   z-index: 1;
-  display: flex;
+  display: auto flex;
   align-items: center;
   justify-content: space-between;
   padding: 1rem 38rem;
